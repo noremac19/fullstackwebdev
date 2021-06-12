@@ -1,0 +1,243 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+.search-button{
+	background-color: #8a4100;
+	border: none;
+	color: white;
+}
+
+.text-yellow{
+	color: rgb(242,177,14);
+}
+
+body{
+	background-image: url("images/ball.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right bottom;
+	font-family: 'Alegreya', serif;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.navbar{
+	background-color: #7b0041;
+	/*height: 100px;*/
+
+}
+
+
+
+.navbar-brand{
+	margin-left: 10px;
+}
+
+.outer{
+	margin: auto;
+	width: 57%;
+	background-color: rgba(242,177,14,0.95);
+	border-radius: 15px 15px 15px 15px;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.row-flexbox{
+	display: flex;
+	justify-content: center;
+
+}
+
+.but{
+	margin-top: 135%;
+	margin-left: 20%;
+	background-color: #8a4100;
+	border: none;
+}
+
+.but:hover{
+	background-color: #97d0e9;
+}
+
+.brown{
+	border-radius: 5px 5px 5px 5px;
+	background-color: #8a4100;
+	border: none;
+}
+
+
+
+.brown:hover{
+	background-color: #97d0e9;
+}
+
+#thread{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+
+	color: white;
+	
+}
+
+.profile{
+	display: flex;
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+.title{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.section{
+	width: 90%;
+	background-color: rgba(255,255,255,0.3);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	padding: 15px;
+	border-radius: 15px 15px 15px 15px;
+}
+
+.comment{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(123,0,65,0.9);
+	padding: 15px;
+	border-radius: 15px 15px 15px 15px;
+}
+
+.reply{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+	border-radius: 15px 15px 15px 15px;
+	background-color: rgba(151,208,233,0.9);
+
+}
+
+.user{
+	width: 35px;
+	height: 35px;
+	margin-left: 5px;
+}
+
+.results{
+	background-color: rgba(242,177,14,0.95);
+	width: 100%;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 15px 15px 15px 15px;
+			
+			
+}
+
+.results .row-flexbox{
+	align-items: center;
+	justify-content: center;
+}
+
+.clearfloat {
+	clear: both;
+}
+
+.team{
+	width: 40%;
+	height: 40%;
+	padding: 5px;
+	font-size: 10px;
+	background-color: white;
+	text-align: center;
+	margin: 10px;
+	border-radius: 15px 15px 15px 15px;
+	color: black;
+}
+
+.team img{
+	width: 35px;
+	height: 35px;
+	margin: auto;    
+   	display: block;
+}
+
+.wait{
+	text-align: center;
+	width: 90%;
+	border-radius: 15px 15px 15px 15px;
+	background-color: #7b0041;
+	padding: 10px;
+	margin: auto;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#bottom{
+	text-align: center;
+	margin: auto;
+	background-color: #7b0041;
+	margin-top: 50px;
+	color: white;
+}
+
+.profile{
+	display: flex;
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+.title{
+	font-size: 18px;
+	font-weight: bold;
+}
+		
+
+#header{
+	text-align: center;
+	color: #97d0e9;
+}
+
+.temp{
+	width: 50%;
+	background-color: white;
+
+}
+
+#pic{
+	width: 30%;
+}
+
+#pic img{
+	width: 60%;
+	margin: auto;    
+    display: block;
+	/*height: 90%;*/
+}
+
+#bio{
+	width: 70%;
+}
+
+#text{
+	padding: 5px;
+	border: 2px solid black;
+	background-color: rgba(255,255,255,0.95);
+}
+
+#large{
+	font-size: 36px;
+}
+
+#sort{
+	margin-left: 75%;
+}
+
